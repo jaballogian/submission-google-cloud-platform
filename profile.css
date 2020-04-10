@@ -14,12 +14,15 @@ header {
   background-color: #00c8eb;
   text-align: center;
   color: white;
-  position: sticky;
-  top: 0;
 }
 
 .center {
   margin: auto;
+  text-align: center;
+}
+
+img {
+  margin-top: 50px;
 }
 
 footer {
@@ -29,20 +32,24 @@ footer {
   text-align: center;
   font-weight: bold;
   font-size: 30px;
-  position: sticky;
-  bottom: : 0;
 }
 
 table {
+  margin-top: 50px;
   border-spacing: 10px;
+  margin-bottom: 50px;
+  width: 100%;
 }
 
 th {
   text-align: right;
   font-size: 30px;
+  width: 50%;
+  color: blue;
 }
 
 td {
   text-align: left;
   font-size: 20px;
+  width: 50%;
 }
